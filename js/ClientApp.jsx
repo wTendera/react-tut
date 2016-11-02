@@ -1,17 +1,18 @@
 const React = require('react')
 const ReactDOM = require('react-dom')
-const MyTitle = require('./MyTitle')
 
-const MyFirstComponent =  React.createClass({
+const App = React.createClass({
   render () {
     return (
-        <div>
-          <MyTitle title='Ayyy lmao' color='red' />
-          <MyTitle title='XD' color='blue' />
-          <MyTitle title='mmm' color='pink' />
+      <div className='app-container'>
+        <div className='home-info'>
+          <h1 className='title'>svideo</h1>
+          <input className='search' type='text' placeholder='Search' />
+          <button className='browse-all'>or Browse All</button>
         </div>
+      </div>
     )
   }
 })
 
-ReactDOM.render(<MyFirstComponent />, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app'))

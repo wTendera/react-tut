@@ -6,8 +6,10 @@
   "author": "Wiktor Tendera <wiktortendera@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "webpack --watch",
     "test": "standard",
     "build": "webpack"
+
 
   },
   "dependencies": {
