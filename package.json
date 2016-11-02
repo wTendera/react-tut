@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "test": "standard",
-    "build": "webpack public/js/App.js public/bundle.js"
+    "build": "webpack"
 
   },
   "dependencies": {
